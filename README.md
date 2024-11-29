@@ -37,12 +37,12 @@ This analysis explores the historical trends of programming language popularity 
 
 ### Raw Data Trends
 
-![Programming Language Trends](path_to_raw_trends.png)
+![Programming Language Trends](https://github.com/Danielmbuthia/popular_languages/blob/master/images/raw_trends.png)
 _Figure 1: Monthly post counts for all programming languages_
 
 ### Smoothed Trends (12-month rolling average)
 
-![Smoothed Programming Language Trends](path_to_smoothed_trends.png)
+![Smoothed Programming Language Trends](https://github.com/Danielmbuthia/popular_languages/blob/master/images/smoothed_trends.png)
 _Figure 2: Smoothed trends showing clearer long-term patterns_
 
 ## Technologies Used
@@ -73,5 +73,3 @@ The analysis uses two main dataframes:
 
 - Original format: Date, TagName, PostCount
 - Reshaped format: Date as index, with columns for each programming language
-
-
