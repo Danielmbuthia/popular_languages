@@ -16,6 +16,7 @@ This analysis explores the historical trends of programming language popularity 
 ## Analysis Features
 
 1. **Data Processing**
+
    - Cleaned and transformed datetime data
    - Handled missing values
    - Reshaped data for time series analysis
@@ -35,12 +36,14 @@ This analysis explores the historical trends of programming language popularity 
 ## Visualizations
 
 ### Raw Data Trends
+
 ![Programming Language Trends](path_to_raw_trends.png)
-*Figure 1: Monthly post counts for all programming languages*
+_Figure 1: Monthly post counts for all programming languages_
 
 ### Smoothed Trends (12-month rolling average)
+
 ![Smoothed Programming Language Trends](path_to_smoothed_trends.png)
-*Figure 2: Smoothed trends showing clearer long-term patterns*
+_Figure 2: Smoothed trends showing clearer long-term patterns_
 
 ## Technologies Used
 
@@ -57,7 +60,9 @@ This analysis explores the historical trends of programming language popularity 
 ```bash
 pip install pandas matplotlib jupyter
 ```
+
 3. Run the Jupyter notebook:
+
 ```bash
 jupyter notebook Programming_Languages.ipynb
 ```
@@ -65,20 +70,8 @@ jupyter notebook Programming_Languages.ipynb
 ## Data Structure
 
 The analysis uses two main dataframes:
+
 - Original format: Date, TagName, PostCount
 - Reshaped format: Date as index, with columns for each programming language
-
-## License
-
-[Add your chosen license here]
-
-## Contributing
-
-[Add contribution guidelines if applicable]
-
-## Contact
-
-[Add your contact information]
-```
 
 
